@@ -1,7 +1,7 @@
 {
 	"Description": "Use this to create your own plugin",
-	"Name": "Stream Deck Template",
-	"Category": "Templates",
+	"Name": "Unique Modifiers",
+	"Category": "Utility",
 	"com.github.kalbert312.action": {
 		"Name": "Action",
 		"Tooltip": "This is the only action in this plugin"
