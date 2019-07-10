@@ -1,6 +1,8 @@
 import * as React from "react";
 import CheckBox from "../../components/CheckBox";
 import Heading from "../../components/Heading";
+import HotKeySelect from "../../components/HotKeySelect";
+import SdpiItem from "../../components/SdpiItem/SdpiItem";
 
 interface Props {
 }
@@ -24,7 +26,12 @@ class PropertyInspector extends React.Component<Props, State> {
 		return (
 			<div>
 				<Heading>When Shift is held down...</Heading>
-				<CheckBox checked={isShiftEnabled} id="shift-enabled" label="Enabled" onChange={this.onShiftCheckBoxClick}/>
+				<SdpiItem id="shift-enabled" label="Enabled">
+					<CheckBox checked={isShiftEnabled} id="shift-enabled" onChange={this.onShiftCheckBoxClick}/>
+				</SdpiItem>
+				<SdpiItem id="shift-hotkey" label="Hotkey">
+					<HotKeySelect/>
+				</SdpiItem>
 			</div>
 		);
 	}
