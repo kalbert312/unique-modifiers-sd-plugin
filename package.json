@@ -1,0 +1,32 @@
+{
+	"name": "unique-modifiers-sd-plugin",
+	"version": "1.0.0",
+	"description": "The `Stream Deck Plugin Template` is a boilerplate template to let you get started quickly when writing a Javascript plugin for [Stream Deck](https://developer.elgato.com/documentation/stream-deck/).",
+	"author": "Kyle Albert",
+	"license": "MIT",
+	"homepage": "https://github.com/kalbert312/unique-modifiers-sd-plugin#readme",
+	"bugs": {
+		"url": "https://github.com/kalbert312/unique-modifiers-sd-plugin/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kalbert312/unique-modifiers-sd-plugin.git"
+	},
+	"keywords": [
+		"Stream",
+		"Deck"
+	],
+	"scripts": {
+		"build:dev": "gulp build:dev",
+		"deploy:dev": "gulp deploy:dev",
+		"postinstall": "gulp install:cra",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"del": "^5.0.0",
+		"gulp": "^4.0.2",
+		"gulp-exec": "^3.0.2",
+		"gulp-replace": "^1.0.0",
+		"gulp-shell": "^0.7.1"
+	}
+}

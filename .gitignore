@@ -1,3 +1,5 @@
+node_modules/
+
 # IntelliJ project files
 .idea
 *.iml
@@ -30,3 +32,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+/Sources/com.github.kalbert312.unique-modifiers.sdPlugin/propertyinspector/
